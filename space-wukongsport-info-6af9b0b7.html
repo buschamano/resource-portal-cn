@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>悟空体育 · 简明指南与访问提醒</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      background: #fafaf9;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #1c1c1c;
+      line-height: 1.7;
+      padding: 2.4rem 1.2rem;
+    }
+    .page {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    /* 主视觉 — 极简留白，轻微阴影 */
+    .hero {
+      margin-bottom: 3.6rem;
+    }
+    .hero h1 {
+      font-size: 2.6rem;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: #121212;
+      margin-bottom: 0.4rem;
+      line-height: 1.2;
+    }
+    .hero .sub {
+      font-size: 1.1rem;
+      color: #5b5b5b;
+      margin-top: 0.1rem;
+      font-weight: 350;
+    }
+
+    /* 信息卡片组 */
+    .card-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 1.8rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: #ffffff;
+      padding: 1.8rem 2rem;
+      border-radius: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02), 0 1px 3px rgba(0,0,0,0.04);
+      transition: box-shadow 0.15s ease;
+    }
+    .card:hover {
+      box-shadow: 0 6px 18px rgba(0,0,0,0.04), 0 1px 4px rgba(0,0,0,0.06);
+    }
+    .card h2 {
+      font-size: 1.35rem;
+      font-weight: 460;
+      letter-spacing: -0.01em;
+      margin-bottom: 0.8rem;
+      color: #222;
+      border-left: 4px solid #d4d4d4;
+      padding-left: 1rem;
+    }
+    .card p, .card li {
+      font-size: 0.98rem;
+      color: #3a3a3a;
+    }
+    .card ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .card li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.4rem;
+    }
+    .card li::before {
+      content: "·";
+      position: absolute;
+      left: 0.3rem;
+      color: #9a9a9a;
+      font-weight: 700;
+    }
+
+    /* 自然链接文本段落 */
+    .narrative {
+      margin: 2.8rem 0 2.2rem 0;
+      padding: 1.2rem 0;
+      border-top: 1px solid #e6e6e6;
+      border-bottom: 1px solid #e6e6e6;
+    }
+    .narrative p {
+      font-size: 1rem;
+      color: #2b2b2b;
+      margin-bottom: 1rem;
+    }
+    .narrative a {
+      color: #1a4e8a;
+      text-decoration: none;
+      border-bottom: 1px solid #cddbea;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .narrative a:hover {
+      border-bottom-color: #1a4e8a;
+      color: #0b2e4f;
+    }
+
+    /* 访问提醒 / FAQ 摘要 */
+    .reminder {
+      background: #f3f3f1;
+      border-radius: 18px;
+      padding: 1.6rem 2rem;
+      margin: 2rem 0 2.4rem 0;
+    }
+    .reminder h3 {
+      font-size: 1.15rem;
+      font-weight: 450;
+      margin-bottom: 0.9rem;
+      color: #1f1f1f;
+    }
+    .reminder p, .reminder li {
+      font-size: 0.95rem;
+      color: #3e3e3e;
+    }
+    .reminder ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .reminder li {
+      padding-left: 1.2rem;
+      position: relative;
+      margin-bottom: 0.35rem;
+    }
+    .reminder li::before {
+      content: "–";
+      position: absolute;
+      left: 0.1rem;
+      color: #7f7f7f;
+    }
+
+    .footer-note {
+      margin-top: 2.8rem;
+      font-size: 0.85rem;
+      color: #7c7c7c;
+      text-align: left;
+      border-top: 1px solid #ececec;
+      padding-top: 1.6rem;
+    }
+
+    /* 响应式微调 */
+    @media (max-width: 480px) {
+      body { padding: 1.6rem 0.9rem; }
+      .hero h1 { font-size: 2rem; }
+      .card { padding: 1.4rem 1.2rem; }
+      .reminder { padding: 1.2rem 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <!-- 主视觉 / hero -->
+  <div class="hero">
+    <h1>悟空体育</h1>
+    <div class="sub">一个关于访问、场景与简明指南的记录</div>
+  </div>
+
+  <!-- 信息卡片：用途 + 适合人群 + 简明特点 -->
+  <div class="card-grid">
+    <div class="card">
+      <h2>用途 · 主要方向</h2>
+      <p>悟空体育围绕运动与日常活动，提供信息整合、社区交流及基础工具。使用者可在此了解运动项目资讯、查看活动动态，并参与相关讨论。平台本身不直接提供赛事直播或博彩服务，而侧重信息聚合与用户互动。</p>
+    </div>
+
+    <div class="card">
+      <h2>适合人群</h2>
+      <ul>
+        <li>对各类运动项目有了解需求的普通爱好者</li>
+        <li>希望获取活动信息或寻找同好社群的用户</li>
+        <li>关注运动生活方式、但偏好轻量信息的人</li>
+        <li>不追求高强度竞彩或投注的浏览者</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>界面与信息特点</h2>
+      <p>页面结构以简洁为主，分类相对清晰。导航区域列出主要板块，内容更新节奏平缓。部分栏目包含用户生成内容，浏览时建议留意信息来源与更新时间。移动端适配良好，常用操作可在两至三步内完成。</p>
+    </div>
+  </div>
+
+  <!-- 自然链接段落（嵌入 a 标签） -->
+  <div class="narrative">
+    <p>如果你正在寻找一个以运动信息为切入点的线上空间，可以花点时间了解 <a href="https://space-wukongsport.com">悟空体育</a>。它并非大而全的门户，更像一个围绕运动兴趣搭建的站点——没有过多推送，也不强调实时刷新。浏览时你会注意到，大部分板块以文字和静态内容为主，讨论区保持适度的活跃度。对于只想安静查阅运动资料或活动记录的人来说，这种节奏或许刚好。</p>
+    <p>当然，任何平台都有其边界。使用前建议先翻阅常见问题区域，了解社区规范与内容审核方式。如果你看重信息来源与透明度，<a href="https://space-wukongsport.com">悟空体育</a> 的“关于”页面里有一些简要说明，可以帮你更快建立认知。保持适度期待，往往能得到更踏实的体验。</p>
+  </div>
+
+  <!-- 访问提醒 / FAQ 摘要 -->
+  <div class="reminder">
+    <h3>访问提醒 · 常见疑问摘要</h3>
+    <ul>
+      <li>网站不涉及博彩、投注、即时赔率等业务，请勿误判平台性质。</li>
+      <li>部分功能（如评论、发帖）可能需要注册账号，请留意个人信息保护。</li>
+      <li>内容更新频率一般，不保证每日都出现全新信息，适合非急迫性浏览。</li>
+      <li>若遇到链接失效或板块异常，可尝试更换浏览器或稍后再试。</li>
+      <li>非官方声明的内容均属用户个人观点，不代表平台立场。</li>
+    </ul>
+  </div>
+
+  <!-- 简单收尾 -->
+  <div class="footer-note">
+    最后提醒：保持理性访问，注意信息甄别。本页仅为介绍性摘要，具体功能以实际站点为准。
+  </div>
+
+</div>
+</body>
+</html>
